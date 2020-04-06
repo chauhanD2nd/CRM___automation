@@ -27,7 +27,7 @@ public class Base {
 	@BeforeClass
 	public void launchBrowser() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Cp\\eclipse-workspace\\GRP001\\src\\main\\resources\\browserDrivers\\chromedriver.exe");
+				System.getProperty("user.dir")+"\\src\\main\\resources\\com\\drivers\\chromedriver.exe");
 	driver = new ChromeDriver();
 	
 	//EventListener WebDriver
