@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Util4Data_Sheet1 {
 	static Xls_Reader reader;
-	static String xlsLocation = "C:\\Users\\Cp\\eclipse-workspace\\GRP001\\src\\main\\resources\\com\\testdata\\dataExcel.xlsx";
+	static String xlsLocation = 
+			System.getProperty("user.dir")+"\\src\\main\\resources\\com\\testData\\dataExcel.xlsx";
 
 	public static ArrayList<Object[]> storeData() {
 
