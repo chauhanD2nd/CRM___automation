@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Cp\eclipse-workspace\JenkinsOne\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.DataEntryTest" hash-for-method="enterData(Alpha, Sonnen, Sonnen@ufc.com, 9876082774, Portland, Portland, Alaska, 123456.0, google.com, yes, te...)">enterData(Alpha, Sonnen, Sonnen@ufc.com, 9876082774, Portland, Portland, Alaska, 123456.0, google.com, yes, te...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.DataEntryTest" hash-for-method="enterData(Fredrick, Jones, Jones@ufc.com, 9.876082779E9, Brisbane, Brisbane, Nevada, 123461.0, google.com, no,...)">enterData(Fredrick, Jones, Jones@ufc.com, 9.876082779E9, Brisbane, Brisbane, Nevada, 123461.0, google.com, no,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.DataEntryTest" hash-for-method="enterData(Beta, Adesanya, Adesanya@ufc.com, 9.876082775E9, Portland, Portland, Arizona, 123457.0, google.com, ...)">enterData(Beta, Adesanya, Adesanya@ufc.com, 9.876082775E9, Portland, Portland, Arizona, 123457.0, google.com, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.DataEntryTest" hash-for-method="enterData(Delta, Nurmagomedov, Nurmagomedov@ufc.com, 9.876082777E9, Sao Paulo, Sao Paulo, Alaska, 123459.0, go...)">enterData(Delta, Nurmagomedov, Nurmagomedov@ufc.com, 9.876082777E9, Sao Paulo, Sao Paulo, Alaska, 123459.0, go...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.DataEntryTest" hash-for-method="enterData(Gamma, Romero, Romero@ufc.com, 9.876082776E9, Aukland, Aukland, Nevada, 123458.0, google.com, yes, t...)">enterData(Gamma, Romero, Romero@ufc.com, 9.876082776E9, Aukland, Aukland, Nevada, 123458.0, google.com, yes, t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.DataEntryTest" hash-for-method="enterData(Echo, Tate, Tate@ufc.com, 9.876082778E9, London, London, Arizona, 123460.0, google.com, yes, test pr...)">enterData(Echo, Tate, Tate@ufc.com, 9.876082778E9, London, London, Arizona, 123460.0, google.com, yes, test pr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSet.DataEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterData(Alpha, Sonnen, Sonnen@ufc.com, 9876082774, Portland, Portland, Alaska, 123456.0, google.com, yes, te...)">
+                  </a> <!-- enterData(Alpha, Sonnen, Sonnen@ufc.com, 9876082774, Portland, Portland, Alaska, 123456.0, google.com, yes, te...) -->
+                  <span class="method-name">enterData</span>
+                  <span class="parameters">(Alpha, Sonnen, Sonnen@ufc.com, 9876082774, Portland, Portland, Alaska, 123456.0, google.com, yes, test project mate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterData(Fredrick, Jones, Jones@ufc.com, 9.876082779E9, Brisbane, Brisbane, Nevada, 123461.0, google.com, no,...)">
+                  </a> <!-- enterData(Fredrick, Jones, Jones@ufc.com, 9.876082779E9, Brisbane, Brisbane, Nevada, 123461.0, google.com, no,...) -->
+                  <span class="method-name">enterData</span>
+                  <span class="parameters">(Fredrick, Jones, Jones@ufc.com, 9.876082779E9, Brisbane, Brisbane, Nevada, 123461.0, google.com, no, test project mate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterData(Beta, Adesanya, Adesanya@ufc.com, 9.876082775E9, Portland, Portland, Arizona, 123457.0, google.com, ...)">
+                  </a> <!-- enterData(Beta, Adesanya, Adesanya@ufc.com, 9.876082775E9, Portland, Portland, Arizona, 123457.0, google.com, ...) -->
+                  <span class="method-name">enterData</span>
+                  <span class="parameters">(Beta, Adesanya, Adesanya@ufc.com, 9.876082775E9, Portland, Portland, Arizona, 123457.0, google.com, no, test project mate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterData(Delta, Nurmagomedov, Nurmagomedov@ufc.com, 9.876082777E9, Sao Paulo, Sao Paulo, Alaska, 123459.0, go...)">
+                  </a> <!-- enterData(Delta, Nurmagomedov, Nurmagomedov@ufc.com, 9.876082777E9, Sao Paulo, Sao Paulo, Alaska, 123459.0, go...) -->
+                  <span class="method-name">enterData</span>
+                  <span class="parameters">(Delta, Nurmagomedov, Nurmagomedov@ufc.com, 9.876082777E9, Sao Paulo, Sao Paulo, Alaska, 123459.0, google.com, no, test project mate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterData(Gamma, Romero, Romero@ufc.com, 9.876082776E9, Aukland, Aukland, Nevada, 123458.0, google.com, yes, t...)">
+                  </a> <!-- enterData(Gamma, Romero, Romero@ufc.com, 9.876082776E9, Aukland, Aukland, Nevada, 123458.0, google.com, yes, t...) -->
+                  <span class="method-name">enterData</span>
+                  <span class="parameters">(Gamma, Romero, Romero@ufc.com, 9.876082776E9, Aukland, Aukland, Nevada, 123458.0, google.com, yes, test project mate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterData(Echo, Tate, Tate@ufc.com, 9.876082778E9, London, London, Arizona, 123460.0, google.com, yes, test pr...)">
+                  </a> <!-- enterData(Echo, Tate, Tate@ufc.com, 9.876082778E9, London, London, Arizona, 123460.0, google.com, yes, test pr...) -->
+                  <span class="method-name">enterData</span>
+                  <span class="parameters">(Echo, Tate, Tate@ufc.com, 9.876082778E9, London, London, Arizona, 123460.0, google.com, yes, test project mate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Cp\eclipse-workspace\JenkinsOne\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testSet.DataEntryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterData')
+data.setCell(0, 2, 'testSet.DataEntryTest')
+data.setCell(0, 3, 818);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterData')
+data.setCell(1, 2, 'testSet.DataEntryTest')
+data.setCell(1, 3, 698);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'enterData')
+data.setCell(2, 2, 'testSet.DataEntryTest')
+data.setCell(2, 3, 677);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'enterData')
+data.setCell(3, 2, 'testSet.DataEntryTest')
+data.setCell(3, 3, 631);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'enterData')
+data.setCell(4, 2, 'testSet.DataEntryTest')
+data.setCell(4, 3, 609);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'enterData')
+data.setCell(5, 2, 'testSet.DataEntryTest')
+data.setCell(5, 3, 567);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSet.DataEntryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">SetupPage</span>
+                <span class="method-start">13320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterData(Alpha, Sonnen, Sonnen@ufc.com, 9876082774, Portland, Portland, Alaska, 123456.0, google.com, yes, te...)</span>
+                <span class="method-start">13335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetupPage</span>
+                <span class="method-start">14015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterData(Beta, Adesanya, Adesanya@ufc.com, 9.876082775E9, Portland, Portland, Arizona, 123457.0, google.com, ...)</span>
+                <span class="method-start">14018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetupPage</span>
+                <span class="method-start">14838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterData(Gamma, Romero, Romero@ufc.com, 9.876082776E9, Aukland, Aukland, Nevada, 123458.0, google.com, yes, t...)</span>
+                <span class="method-start">14838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetupPage</span>
+                <span class="method-start">15407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterData(Delta, Nurmagomedov, Nurmagomedov@ufc.com, 9.876082777E9, Sao Paulo, Sao Paulo, Alaska, 123459.0, go...)</span>
+                <span class="method-start">15407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetupPage</span>
+                <span class="method-start">16039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterData(Echo, Tate, Tate@ufc.com, 9.876082778E9, London, London, Arizona, 123460.0, google.com, yes, test pr...)</span>
+                <span class="method-start">16040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">SetupPage</span>
+                <span class="method-start">16651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterData(Fredrick, Jones, Jones@ufc.com, 9.876082779E9, Brisbane, Brisbane, Nevada, 123461.0, google.com, no,...)</span>
+                <span class="method-start">16652 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
