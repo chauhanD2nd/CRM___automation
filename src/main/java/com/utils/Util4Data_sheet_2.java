@@ -9,7 +9,7 @@ public class Util4Data_sheet_2 {
 	public ArrayList<Object[]> readSheet() {
 		try {
 			reader = new Xls_Reader(
-					"C:\\Users\\Cp\\eclipse-workspace\\GRP001\\src\\main\\resources\\com\\testdata\\dataExcel.xlsx");
+					"C:\\Users\\Cp\\eclipse-workspace\\JenkinsOne\\src\\main\\resources\\com\\testData\\dataExcel.xlsx");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
