@@ -35,22 +35,24 @@ public class SeleniumTestPage extends Base {
 	@FindBy(name = "website")
 	WebElement WebSite;
 
-	@FindBy(xpath = "/html/body/div[2]/div/div[2]/section/form/fieldset/div[10]/div/div[1]/label/input")
+	@FindBy(xpath = "//input[@type='radio' and @value='yes']")
 	WebElement YesRadio;
 
-	@FindBy(xpath = "/html/body/div[2]/div/div[2]/section/form/fieldset/div[10]/div/div[2]/label/input")
+	@FindBy(xpath = "//input[@type='radio' and @value='no']")
 	WebElement NoRadio;
 
 	@FindBy(name = "comment")
 	WebElement Comment;
 
-	@FindBy(xpath = "/html/body/div[2]/div/div[2]/section/form/fieldset/div[13]/div/button")
+	@FindBy(xpath = "//button[@type='submit']")
 	WebElement SendButton;
 
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[1]/a/img")
 	WebElement PageImage;
 
-	// Initialize Page Factory using constructor
+	
+	
+	// Initialize Page Factory using Constructor
 	public SeleniumTestPage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -76,6 +78,7 @@ public class SeleniumTestPage extends Base {
 			String State, String zipcode, String website, String hosting, String Project) {
 		FirstName.sendKeys(firstName);
 		LastName.sendKeys(lastName);
+		System.out.println("Entering :::  "+firstName+lastName);
 		
 	}
 }

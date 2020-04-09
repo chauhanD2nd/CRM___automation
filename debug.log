@@ -13,3 +13,4 @@
 [0405/155459.079:ERROR:exception_snapshot_win.cc(98)] thread ID 2504 not found in process
 [0405/155459.093:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
 [0405/155459.093:ERROR:exception_snapshot_win.cc(98)] thread ID 9484 not found in process
+[0408/043539.482:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports

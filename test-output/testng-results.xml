@@ -1,400 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17375" started-at="2020-04-05T03:44:20 IST" finished-at="2020-04-05T03:44:38 IST">
+  <suite name="Suite" duration-ms="14979" started-at="2020-04-09T22:04:42 IST" finished-at="2020-04-09T22:04:57 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17375" started-at="2020-04-05T03:44:20 IST" finished-at="2020-04-05T03:44:38 IST">
+    <test name="Test" duration-ms="14979" started-at="2020-04-09T22:04:42 IST" finished-at="2020-04-09T22:04:57 IST">
       <class name="testSet.DataEntryTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="launchBrowser" is-config="true" duration-ms="12523" started-at="2020-04-05T03:44:20 IST" finished-at="2020-04-05T03:44:33 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testSet.DataEntryTest@42d8062c]" name="launchBrowser" is-config="true" duration-ms="12447" started-at="2020-04-09T22:04:42 IST" finished-at="2020-04-09T22:04:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="SetupPage" is-config="true" duration-ms="14" started-at="2020-04-05T03:44:34 IST" finished-at="2020-04-05T03:44:34 IST">
+        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@42d8062c]" name="SetupPage" is-config="true" duration-ms="17" started-at="2020-04-09T22:04:55 IST" finished-at="2020-04-09T22:04:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupPage -->
-        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="enterData" duration-ms="677" started-at="2020-04-05T03:44:34 IST" data-provider="getDataFromSheet" finished-at="2020-04-05T03:44:34 IST">
+        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@42d8062c]" name="enterData" duration-ms="685" started-at="2020-04-09T22:04:55 IST" data-provider="getDataFromSheet" finished-at="2020-04-09T22:04:56 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Alpha]]>
+                <![CDATA[Nate]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Sonnen]]>
+                <![CDATA[Diaz]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Sonnen@ufc.com]]>
+                <![CDATA[diaz@nate.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[9876082774]]>
+                <![CDATA[785624.0]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Portland]]>
+                <![CDATA[C/A, UFC Building]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Portland]]>
+                <![CDATA[LA]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Alaska]]>
+                <![CDATA[California]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[123456.0]]>
+                <![CDATA[8976.0]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[google.com]]>
+                <![CDATA[www.ufc.com]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[yes]]>
+                <![CDATA[Yes]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[test project mate]]>
+                <![CDATA[Test Desc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterData -->
-        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="SetupPage" is-config="true" duration-ms="3" started-at="2020-04-05T03:44:34 IST" finished-at="2020-04-05T03:44:34 IST">
+        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@42d8062c]" name="SetupPage" is-config="true" duration-ms="1" started-at="2020-04-09T22:04:56 IST" finished-at="2020-04-09T22:04:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupPage -->
-        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="enterData" duration-ms="818" started-at="2020-04-05T03:44:34 IST" data-provider="getDataFromSheet" finished-at="2020-04-05T03:44:35 IST">
+        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@42d8062c]" name="enterData" duration-ms="550" started-at="2020-04-09T22:04:56 IST" data-provider="getDataFromSheet" finished-at="2020-04-09T22:04:56 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Beta]]>
+                <![CDATA[Nick]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Adesanya]]>
+                <![CDATA[Diaz]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Adesanya@ufc.com]]>
+                <![CDATA[diaz@nate.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[9.876082775E9]]>
+                <![CDATA[785625.0]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Portland]]>
+                <![CDATA[C/A, UFC Building]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Portland]]>
+                <![CDATA[LA]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Arizona]]>
+                <![CDATA[California]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[123457.0]]>
+                <![CDATA[8977.0]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[google.com]]>
+                <![CDATA[www.ufc.com]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[no]]>
+                <![CDATA[Yes]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[test project mate]]>
+                <![CDATA[Test Desc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterData -->
-        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="enterData" duration-ms="567" started-at="2020-04-05T03:44:35 IST" data-provider="getDataFromSheet" finished-at="2020-04-05T03:44:36 IST">
+        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@42d8062c]" name="SetupPage" is-config="true" duration-ms="1" started-at="2020-04-09T22:04:56 IST" finished-at="2020-04-09T22:04:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupPage -->
+        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@42d8062c]" name="enterData" duration-ms="617" started-at="2020-04-09T22:04:56 IST" data-provider="getDataFromSheet" finished-at="2020-04-09T22:04:57 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Gamma]]>
+                <![CDATA[Anderson]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Romero]]>
+                <![CDATA[Silva]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Romero@ufc.com]]>
+                <![CDATA[diaz@nate.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[9.876082776E9]]>
+                <![CDATA[785626.0]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Aukland]]>
+                <![CDATA[C/A, UFC Building]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[Aukland]]>
+                <![CDATA[LA]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Nevada]]>
+                <![CDATA[California]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[123458.0]]>
+                <![CDATA[8978.0]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[google.com]]>
+                <![CDATA[www.ufc.com]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[yes]]>
+                <![CDATA[Yes]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[test project mate]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterData -->
-        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="SetupPage" is-config="true" duration-ms="0" started-at="2020-04-05T03:44:35 IST" finished-at="2020-04-05T03:44:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetupPage -->
-        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="enterData" duration-ms="631" started-at="2020-04-05T03:44:36 IST" data-provider="getDataFromSheet" finished-at="2020-04-05T03:44:36 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Delta]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nurmagomedov]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Nurmagomedov@ufc.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.876082777E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sao Paulo]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Sao Paulo]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Alaska]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[123459.0]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[google.com]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[no]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[test project mate]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterData -->
-        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="SetupPage" is-config="true" duration-ms="0" started-at="2020-04-05T03:44:36 IST" finished-at="2020-04-05T03:44:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetupPage -->
-        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="SetupPage" is-config="true" duration-ms="1" started-at="2020-04-05T03:44:36 IST" finished-at="2020-04-05T03:44:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetupPage -->
-        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="enterData" duration-ms="609" started-at="2020-04-05T03:44:36 IST" data-provider="getDataFromSheet" finished-at="2020-04-05T03:44:37 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Echo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Tate]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Tate@ufc.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.876082778E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[London]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[London]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Arizona]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[123460.0]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[google.com]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[test project mate]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterData -->
-        <test-method status="PASS" signature="SetupPage()[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="SetupPage" is-config="true" duration-ms="1" started-at="2020-04-05T03:44:37 IST" finished-at="2020-04-05T03:44:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetupPage -->
-        <test-method status="PASS" signature="enterData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSet.DataEntryTest@7a9273a8]" name="enterData" duration-ms="698" started-at="2020-04-05T03:44:37 IST" data-provider="getDataFromSheet" finished-at="2020-04-05T03:44:38 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Fredrick]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Jones]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Jones@ufc.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.876082779E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Brisbane]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Brisbane]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Nevada]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[123461.0]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[google.com]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[no]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[test project mate]]>
+                <![CDATA[Test Desc]]>
               </value>
             </param>
           </params>
